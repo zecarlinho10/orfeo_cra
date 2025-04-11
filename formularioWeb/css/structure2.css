@@ -1,0 +1,197 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Title : Wufoo Form Structure
+Author : Infinity Box Inc.
+URL : http://wufoo.com
+
+Last Updated : September 30, 2008
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+body{
+	margin:7px 0 15px 0;
+	text-align:center;
+	font-size:small;
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+
+.container-index {
+	background: #E6EFFD 0% 0% no-repeat padding-box;
+	border: 1px solid #D9E8FF;
+	border-radius: 10px;
+	padding: 5%;
+}
+
+#button-index {
+	background: #2D5BC1 0% 0% no-repeat padding-box !important;
+	border-radius: 29px !important;
+	opacity: 1;
+}
+
+.row {
+	margin-bottom: 1% !important;
+	border-bottom: 1px #D9E8FF !important;
+}
+
+.row > div {
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+}
+
+.row h4 {
+	padding-bottom: 8px;
+}
+
+.row label{
+	font-size: 16px;
+}
+
+#imgcaptcha {
+	padding-top: 0% !important;
+	width: auto !important;
+}
+
+.btn-primary {
+	background: #2D5BC1 0% 0% no-repeat padding-box !important;
+	border-radius: 29px !important;
+	width: 202px;
+	height: 51px;
+	font-size: 16px !important;
+	font-weight: bolder !important;
+	padding-top: 10px !important;
+}
+
+.row img {
+	width: 40%;
+	padding-top: 25% ;
+}
+
+#container{
+	text-align:center;
+}
+#container, #top, #bottom, #footer{
+	margin:10% auto;
+	width:100%;
+}
+
+#encabezado{
+    background: url("../../imagenes/min_cabezote.gif") no-repeat scroll 0 0 #227384;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    height: 24px;
+    padding-right: 10px;
+    padding-top: 42px;
+    text-align: right;
+}
+
+#top, #bottom {
+	width:650px;
+	height:10px !important;
+	display:block !important;
+}
+#top{
+	margin-top:10px;
+}
+
+form.wufoo{
+	margin:20px 20px 0 20px;
+	padding:0 0 20px 0;
+}
+
+/* ----- LOGO ----- */
+
+h1, h3, h4, h5{
+	text-align: left;
+	letter-spacing: 0px;
+	font-weight: bolder !important;
+	color: #004884 !important;
+	opacity: 1;
+}
+
+.icon-1 {
+	opacity: 1;
+	position: relative;
+    top: 1px;
+}
+
+/*input[type="radio"], label {
+	color: #2D5BC1;
+	border: 2px #2D5BC1;
+	width: auto !important;
+}*/
+
+input[type="radio"] {
+	width: 1.5em;
+	height: 1.5em;
+    background: url("../images/radioBotonInactivo.png") center center no-repeat;
+	background-size: contain;
+	appearance: none;
+	place-content: center;
+  }
+
+  input[type="radio"]:checked {
+    background: url("../images/radioBotonActivado.png") center center no-repeat;
+  }
+
+
+  .chosen-container-single .chosen-single div b {
+	background: url("../images/flecha.png") center center no-repeat !important;
+	background-size: 18px !important;
+    margin-left: -7px;
+
+}
+
+img, a img{
+	border:none;
+}
+
+* html img { 
+	behavior: url(/images/iepngfix.htc);
+}
+
+.chosen-container {
+    width: 100% !important;
+}
+
+input[type="text"], input[type="numeric"] {
+    width: 100% !important;
+}
+
+.hide{
+	display:none !important;
+}
+
+.radio-inline-2 input {
+	font-size: 16px !important;
+	margin-right: 1em !important;
+}
+
+.radio-inline-2 {
+	color: #2D5BC1;
+}
+
+.radio-inline-1 input{
+	font-size: 16px !important;
+	margin-right: 1em !important;
+}
+
+.texto-ayuda-consulta {
+	font-size: 27px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.titulo-alerta {
+	color: #FFAC02 !important;
+	text-align: center !important;
+}
+
+.titulo-success {
+	color: #00BA00 !important;
+	text-align: center !important;
+}
+
+.modal-content {
+	border-radius: 10px !important;
+}

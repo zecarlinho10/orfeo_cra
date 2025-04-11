@@ -1,0 +1,150 @@
+.table-radmail {
+	border: thin solid #377584;
+	width:90%;
+	margin: 0 auto;
+}
+
+.table-radmail tr {
+	border: 1px solid #FFF;
+}
+
+.table-radmail th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bolder;
+	color: #000000;
+	background-color: #a8bac6;
+	text-indent: 5pt;
+	vertical-align: middle;
+	text-align: center;
+	height: 30px;
+}
+
+.table-radmail th.title {
+	background: #005B88;
+	padding: 5px;
+	color: #FFF;
+}
+
+.table-radmail tr.msg-info td {
+	background: #FFFC98;
+	font-weight: bold;
+	color:red;
+	text-align: center;
+}
+
+.table-radmail td .btn-edit {
+	border:none;
+	background: url(edit.jpg) no-repeat center center;
+	cursor: pointer;
+	width:25px;
+}
+
+.table-radmail td .btn-delete {
+	border:none;
+	background: url(delete.jpg) no-repeat center center;
+	cursor: pointer;
+	width: 25px;
+}
+
+.table-radmail td .btn-edit {
+	border:none;
+	background: url(edit.jpg) no-repeat center center;
+	cursor: pointer;
+	width:25px;
+}
+
+.table-radmail td .btn-delete {
+	border:none;
+	background: url(delete.jpg) no-repeat center center;
+	cursor: pointer;
+	width: 25px;
+}
+
+.imagenaccion td .btn-edit {
+	border:none;
+	background: url(edit.jpg) no-repeat center center;
+	cursor: pointer;
+	width:25px;
+}
+
+.imagenaccion td .btn-delete {
+	border:none;
+	background: url(delete.jpg) no-repeat center center;
+	cursor: pointer;
+	width: 25px;
+}
+
+
+.wrapper-form {
+	width: 90%;
+	margin: 0 auto 20px;
+	background: #a8bac6;	
+	padding:10px 0; 
+}
+
+.wrapper-form .content {
+	padding: 20px;
+	margin: 0 10px;
+	background: #BACEDB;
+}	
+
+.wrapper-form .content .description {
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	border-bottom: 2px solid #a8bac6;
+	background: #005B88;
+	padding: 5px;
+}
+
+.wrapper-form .content .field {
+	float: left;
+	padding-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.wrapper-form .content input {
+	width:200px;	
+	border: none;
+	height: 25px;
+}
+
+.wrapper-form .content .field-submit {
+	clear: both;	
+}
+
+.wrapper-form .content .field-submit input[type=submit]{
+	width: 200px;
+	height: 30px;
+	background: #FF9900;
+	cursor: pointer;
+	border: none;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.wrapper-form .content .message .error {
+	display: block;
+	color:red;
+	padding: 5px;
+	background: #FFD6D6;
+	border: 1px solid red;
+	margin-top: 3px;
+}
+
+.wrapper-form .content .message .success {
+	display: block;
+	color:#115700;
+	padding: 5px;
+	background: #C6FCB9;
+	border: 1px solid #115700;
+	margin-top: 3px;
+}
+
+.wrapper-form label {
+	clear: both;
+}
+

@@ -1,0 +1,349 @@
+﻿*********************LECTURA DE TIMEOUT****45********tiempo actualizado de lectura*****9017AQUI VA LA SECCION DEL CORREOfloat(1.2)
+object(stdClass)#18 (11) {
+  ["type"]=>
+  int(1)
+  ["encoding"]=>
+  int(0)
+  ["ifsubtype"]=>
+  int(1)
+  ["subtype"]=>
+  string(5) "MIXED"
+  ["ifdescription"]=>
+  int(0)
+  ["ifid"]=>
+  int(0)
+  ["ifdisposition"]=>
+  int(0)
+  ["ifdparameters"]=>
+  int(0)
+  ["ifparameters"]=>
+  int(1)
+  ["parameters"]=>
+  array(1) {
+    [0]=>
+    object(stdClass)#22 (2) {
+      ["attribute"]=>
+      string(8) "boundary"
+      ["value"]=>
+      string(28) "000000000000f376d905c6b3a3c6"
+    }
+  }
+  ["parts"]=>
+  array(2) {
+    [0]=>
+    object(stdClass)#38 (11) {
+      ["type"]=>
+      int(1)
+      ["encoding"]=>
+      int(0)
+      ["ifsubtype"]=>
+      int(1)
+      ["subtype"]=>
+      string(11) "ALTERNATIVE"
+      ["ifdescription"]=>
+      int(0)
+      ["ifid"]=>
+      int(0)
+      ["ifdisposition"]=>
+      int(0)
+      ["ifdparameters"]=>
+      int(0)
+      ["ifparameters"]=>
+      int(1)
+      ["parameters"]=>
+      array(1) {
+        [0]=>
+        object(stdClass)#19 (2) {
+          ["attribute"]=>
+          string(8) "boundary"
+          ["value"]=>
+          string(28) "000000000000f376d205c6b3a3c4"
+        }
+      }
+      ["parts"]=>
+      array(2) {
+        [0]=>
+        object(stdClass)#41 (12) {
+          ["type"]=>
+          int(0)
+          ["encoding"]=>
+          int(4)
+          ["ifsubtype"]=>
+          int(1)
+          ["subtype"]=>
+          string(5) "PLAIN"
+          ["ifdescription"]=>
+          int(0)
+          ["ifid"]=>
+          int(0)
+          ["lines"]=>
+          int(60)
+          ["bytes"]=>
+          int(3212)
+          ["ifdisposition"]=>
+          int(0)
+          ["ifdparameters"]=>
+          int(0)
+          ["ifparameters"]=>
+          int(1)
+          ["parameters"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#24 (2) {
+              ["attribute"]=>
+              string(7) "charset"
+              ["value"]=>
+              string(5) "utf-8"
+            }
+          }
+        }
+        [1]=>
+        object(stdClass)#39 (12) {
+          ["type"]=>
+          int(0)
+          ["encoding"]=>
+          int(4)
+          ["ifsubtype"]=>
+          int(1)
+          ["subtype"]=>
+          string(4) "HTML"
+          ["ifdescription"]=>
+          int(0)
+          ["ifid"]=>
+          int(0)
+          ["lines"]=>
+          int(151)
+          ["bytes"]=>
+          int(7225)
+          ["ifdisposition"]=>
+          int(0)
+          ["ifdparameters"]=>
+          int(0)
+          ["ifparameters"]=>
+          int(1)
+          ["parameters"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#20 (2) {
+              ["attribute"]=>
+              string(7) "charset"
+              ["value"]=>
+              string(5) "UTF-8"
+            }
+          }
+        }
+      }
+    }
+    [1]=>
+    object(stdClass)#21 (14) {
+      ["type"]=>
+      int(3)
+      ["encoding"]=>
+      int(3)
+      ["ifsubtype"]=>
+      int(1)
+      ["subtype"]=>
+      string(3) "PDF"
+      ["ifdescription"]=>
+      int(0)
+      ["ifid"]=>
+      int(1)
+      ["id"]=>
+      string(13) "<f_kqwkwori0>"
+      ["bytes"]=>
+      int(5651364)
+      ["ifdisposition"]=>
+      int(1)
+      ["disposition"]=>
+      string(10) "attachment"
+      ["ifdparameters"]=>
+      int(1)
+      ["dparameters"]=>
+      array(1) {
+        [0]=>
+        object(stdClass)#40 (2) {
+          ["attribute"]=>
+          string(8) "filename"
+          ["value"]=>
+          string(52) "=?UTF-8?Q?peticii=C3=B3n_PDF_Puerto_Colombia=2Epdf?="
+        }
+      }
+      ["ifparameters"]=>
+      int(1)
+      ["parameters"]=>
+      array(1) {
+        [0]=>
+        object(stdClass)#23 (2) {
+          ["attribute"]=>
+          string(4) "name"
+          ["value"]=>
+          string(65) "=?UTF-8?Q?peticii=C3=B3n_PDF_Puerto_Colomb?=	=?UTF-8?Q?ia=2Epdf?="
+        }
+      }
+    }
+  }
+}
+NULL
+***********Aqui va el asunto************string(49) "PETICIÓN ILEGALIDAD MULTAS TRANS-PUERTO COLOMBIA"
+*******************int(0)
+string(33) "jfalquez@puertodebarranquilla.com"
+string(26) "vur@supertransporte.gov.co"
+string(12) "CLASIFICADOR"
+****HIZO UN RADICADO*******AVANZO OTRO POCO***string(12) "CLASIFICADOR"
+***********ACTUALIZANDO PERSISTENCIA EML*************09-07-2021 (13:41:35) Éxito: Se creó correctamente el radicado 20215341115202 del correo vur@supertransporte.gov.co mensaje numero 1
+17string(12) "CLASIFICADOR"
+1string(12) "CLASIFICADOR"
+3-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1625852495',  '9999999',  ' - ',  'i',  '', '2021-07-09 13:41:35> INSERT INTO
+                                      ANEXOS
+                                      (ANEX_CODIGO, 
+                                      ANEX_RADI_NUME, 
+                                      ANEX_TIPO, 
+                                      ANEX_TAMANO, 
+                                      ANEX_SOLO_LECT, 
+                                      ANEX_CREADOR, 
+                                      ANEX_DESC, 
+                                      ANEX_NUMERO, 
+                                      ANEX_NOMB_ARCHIVO, 
+                                      ANEX_ESTADO, 
+                                      SGD_REM_DESTINO, 
+                                      ANEX_FECH_ANEX, 
+                                      ANEX_BORRADO)
+                                  VALUES
+                                      (^2021534111520200003^, 
+                                      20215341115202, 
+                                      7, 
+                                      4129841, 
+                                      ^N^, 
+                                      ^CLASIFICADOR^, 
+                                      ^ADJUNTO A CORREO ELECTR&OACUTE;NICO: =?UTF-8?Q?PETICII=C3=B3N_PDF_PUERTO_COLOMB?=	=?UTF-8?Q?IA=2EPDF?=^
+                                      , 3
+                                      , ^2021534111520200003.PDF^
+                                      , 0
+                                      , 1
+                                      , (CURRENT_TIMESTAMP+INTERVAL^0 DAYS^)
+                                      , ^N^)')
+-----
+-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1625852495',  '9999999',  ' - ',  'i',  '', '2021-07-09 13:41:35> INSERT INTO
+                                      ANEXOS
+                                      (ANEX_CODIGO, 
+                                      ANEX_RADI_NUME, 
+                                      ANEX_TIPO, 
+                                      ANEX_TAMANO, 
+                                      ANEX_SOLO_LECT, 
+                                      ANEX_CREADOR, 
+                                      ANEX_DESC, 
+                                      ANEX_NUMERO, 
+                                      ANEX_NOMB_ARCHIVO, 
+                                      ANEX_ESTADO, 
+                                      SGD_REM_DESTINO, 
+                                      ANEX_FECH_ANEX, 
+                                      ANEX_BORRADO)
+                                  VALUES
+                                      (^2021534111520200003^, 
+                                      20215341115202, 
+                                      7, 
+                                      4129841, 
+                                      ^N^, 
+                                      ^CLASIFICADOR^, 
+                                      ^ADJUNTO A CORREO ELECTR&OACUTE;NICO: =?UTF-8?Q?PETICII=C3=B3N_PDF_PUERTO_COLOMB?=	=?UTF-8?Q?IA=2EPDF?=^
+                                      , 3
+                                      , ^2021534111520200003.PDF^
+                                      , 0
+                                      , 1
+                                      , (CURRENT_TIMESTAMP+INTERVAL^0 DAYS^)
+                                      , ^N^)')
+-----
+-----
+(postgres7): INSERT INTO
+                                      ANEXOS
+                                      (ANEX_CODIGO, 
+                                      ANEX_RADI_NUME, 
+                                      ANEX_TIPO, 
+                                      ANEX_TAMANO, 
+                                      ANEX_SOLO_LECT, 
+                                      ANEX_CREADOR, 
+                                      ANEX_DESC, 
+                                      ANEX_NUMERO, 
+                                      ANEX_NOMB_ARCHIVO, 
+                                      ANEX_ESTADO, 
+                                      SGD_REM_DESTINO, 
+                                      ANEX_FECH_ANEX, 
+                                      ANEX_BORRADO)
+                                  VALUES
+                                      ('2021534111520200003', 
+                                      20215341115202, 
+                                      7, 
+                                      4129841, 
+                                      'n', 
+                                      'CLASIFICADOR', 
+                                      'Adjunto a correo electr&oacute;nico: =?UTF-8?Q?peticii=C3=B3n_PDF_Puerto_Colomb?=	=?UTF-8?Q?ia=2Epdf?='
+                                      , 3
+                                      , '2021534111520200003.pdf'
+                                      , 0
+                                      , 1
+                                      , (CURRENT_TIMESTAMP+interval'0 days')
+                                      , 'N')
+-----
+-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1625852495',  '9999999',  ' - ',  'u',  'RADICADO', '2021-07-09 13:41:35> UPDATE RADICADO SET RADI_NUME_ANEXO=1 WHERE RADI_NUME_RADI=20215341115202')
+-----
+-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1625852495',  '9999999',  ' - ',  'u',  'RADICADO', '2021-07-09 13:41:35> UPDATE RADICADO SET RADI_NUME_ANEXO=1 WHERE RADI_NUME_RADI=20215341115202')
+-----
+-----
+(postgres7): UPDATE RADICADO SET RADI_NUME_ANEXO=1 WHERE RADI_NUME_RADI=20215341115202
+-----
+-Para el radicado 20215341115202 se crearon correctamente los anexos 2021534111520200003
+-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1625852495',  '9999999',  ' - ',  'u',  'RADICADO', '2021-07-09 12:41:35> UPDATE RADICADO SET RADI_PATH=^2021/534/20215341115202.PDF^ WHERE RADI_NUME_RADI=^20215341115202^')
+-----
+-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1625852495',  '9999999',  ' - ',  'u',  'RADICADO', '2021-07-09 12:41:35> UPDATE RADICADO SET RADI_PATH=^2021/534/20215341115202.PDF^ WHERE RADI_NUME_RADI=^20215341115202^')
+-----
+-----
+(postgres7): UPDATE RADICADO SET RADI_PATH='2021/534/20215341115202.pdf' where RADI_NUME_RADI='20215341115202'
+-----
+-----
+(postgres7): select RADI_NUME_RADI,  RADI_PATH,  RA_ASUN
+                from RADICADO
+                where RADI_NUME_RADI IN (20215341115202)
+-----
+<?
+  include "../config.php";
+  $admPHPMailer = $correoSaliente;
+  $userPHPMailer = $correoSaliente;
+  $passwdPHPMailer = $passwordCorreoSaliente;
+  $correoSalienteFormWeb = $correoSaliente;
+  $passwordCorreoSalienteFormWeb = $passwordCorreoSaliente;
+  $hostPHPMailer = $servidorSmtp;  // Para fuera Gmail es "ssl://smtp.gmail.com"
+  $portPHPMailer = $puertoSmtp;    // Para Gmail el Puerto es "465"
+  $debugPHPMailer = "1";  // Si esta en 2 mostrara una depuracion al enviar correo.  En 1 los evita.
+  $asuntoMailReasignado = "Llegada de Radicado $radicadosSelText";
+  $asuntoMailRadicado = "Llegada de Radicado nuevo $radicadosSelText";
+  $asuntoMailInformado = "Lo han informado de un radicado $radicadosSelText";
+  $asuntoMailNotificaTipoDoc = "Radicado  Vencido $radicadosSelText";
+  // $usuarioEmailPQRS     = "atencionpqrs";
+
+  /* Reemplazando
+  $admPHPMailer = "correlibre@gmail.com";
+  $userPHPMailer = "correlibre";
+  $passwdPHPMailer = 'xxxxxx';
+  $hostPHPMailer = "ssl://smtp.gmail.com";      // Para fuera Gmail es "ssl://smtp.gmail.com"
+  $portPHPMailer = "465";                         // Para Gmail el Puerto es "465"
+  $debugPHPMailer = "1";  // Si esta en 2 mostrara una depuracion al enviar correo.  En 1 los evita.
+  $asuntoMailReasignado = "Llegada de Radicado $radicadosSelText";
+  $asuntoMailRadicado = "Llegada de Radicado nuevo $radicadosSelText";
+  $asuntoMailInformado = "Lo han informado de un radicado $radicadosSelText";
+  $asuntoMailNotificaTipoDoc = "Radicado  Vencido $radicadosSelText";
+  $servidorOrfeoBodega = "http://192.168.0.12/orfeo-3.8.0/bodega/";
+  $usuarioEmailPQRS     = "atencionpqrs";
+  $emailPQRS            = "atencionpqrs@entidad.gov.co";
+  $passwordEmailPQRS    = "contraseñacorreo";
+  #Si es un exchange esto puede ser necesario
+  #$tipoAutenticacion    = "NTLM";
+  */
+?>
+<br><b> - Enviado correctamente a:</b>  jfalquez@puertodebarranquilla.com</br>
+***********POR AQUI VA EL CODIGO**********SE MUEVE EL RADICADO A LA BANDEJA RADICADOSAQUI SE ELIMINA DEFINITIVAMENTE******************SE CIERRA LA CONEXION

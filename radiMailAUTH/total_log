@@ -1,0 +1,419 @@
+﻿PHP Notice:  Constant FPDF_FONTPATH already defined in /var/www/html/argogpl/fpdf182/html2pdf.php on line 6
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/adodb/adodb.inc.php on line 108
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+27-09-2021 (17:34:09)*********************LECTURA DE TIMEOUT****45
+********tiempo actualizado de lectura*****
+906627-09-2021 (17:34:09)27-09-2021 (17:34:11)atencionciudadano@supertransporte.gov.co****penultimo remitente****rdelahozruiz@hotmail.comAQUI VA LA SECCION DEL CORREOPHP Notice:  Undefined property: stdClass::$parts in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 361
+PHP Notice:  Trying to get property 'disposition' of non-object in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 361
+PHP Notice:  Undefined property: stdClass::$parts in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 361
+PHP Notice:  Trying to get property 'disposition' of non-object in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 361
+int(1)
+PHP Notice:  Undefined variable: charset in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 273
+PHP Notice:  Undefined variable: charset in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 274
+PHP Notice:  Undefined variable: charset in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 277
+PHP Notice:  Undefined variable: charset in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 278
+PHP Notice:  Undefined variable: charset in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 281
+***********Aqui va el asunto************string(30) "RV: Reclamaci�n a COOTRACEGUA."
+*******************string(23) "2021534163816200001.eml"
+string(23) "2021534163816200001.eml"
+string(47) "../bodega/2021/534/docs/2021534163816200001.eml"
+string(47) "../bodega/2021/534/docs/2021534163816200001.eml"
+bool(false)
+***TAMAÑO EML***********12843string(23) "2021534163817200001.eml"
+string(23) "2021534163817200001.eml"
+string(47) "../bodega/2021/534/docs/2021534163817200001.eml"
+***TAMAÑO EML***********12843string(23) "2021534163912200001.eml"
+string(23) "2021534163912200001.eml"
+string(47) "../bodega/2021/534/docs/2021534163912200001.eml"
+***TAMAÑO EML***********12843string(0) ""
+PHP Notice:  Undefined variable: eml_str in /var/www/html/argogpl/radiMail4/readmail.php on line 217
+int(0)
+string(40) "atencionciudadano@supertransporte.gov.co"
+string(26) "vur@supertransporte.gov.co"
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Warning:  session_start(): Cannot start session when headers already sent in /var/www/html/argogpl/radiMail4/RadicarMail.class.php on line 397
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: _SESSION in /var/www/html/argogpl/adodb/adodb.inc.php on line 892
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: _SESSION in /var/www/html/argogpl/adodb/adodb.inc.php on line 892
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: SGD_CIU_CODIGO in /var/www/html/argogpl/radiMail4/RadicarMail.class.php on line 515
+PHP Notice:  Undefined variable: id in /var/www/html/argogpl/include/tx/Radicacion.php on line 96
+PHP Notice:  Undefined index: digitosDependencia in /var/www/html/argogpl/include/tx/Radicacion.php on line 100
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Constant ADODB_ASSOC_CASE already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 49
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 50
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+string(12) "CLASIFICADOR"
+PHP Notice:  Undefined index: unicoconsecutivo in /var/www/html/argogpl/include/tx/Radicacion.php on line 136
+PHP Notice:  Undefined property: Radicacion::$idPais in /var/www/html/argogpl/include/tx/Radicacion.php on line 195
+PHP Notice:  Undefined variable: resul in /var/www/html/argogpl/include/tx/TipoDocumental.php on line 272
+PHP Notice:  Undefined index: varEstaenfisico in /var/www/html/argogpl/include/tx/Radicacion.php on line 284
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: RUTA_ABSOLUTA in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 230
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: RUTA_ABSOLUTA in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 230
+PHP Notice:  Undefined variable: retval in /var/www/html/argogpl/radiMail4/RadicarMail.class.php on line 615
+****HIZO UN RADICADO*******AVANZO OTRO POCO***27-09-2021 (17:34:14)PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Constant ADODB_ASSOC_CASE already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 49
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 50
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+string(12) "CLASIFICADOR"
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+***********ACTUALIZANDO PERSISTENCIA EML*************PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+27-09-2021 (17:34:14) Éxito: Se creó correctamente el radicado 20215341639132 del correo vur@supertransporte.gov.co mensaje numero 1
+66PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Constant ADODB_ASSOC_CASE already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 49
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 50
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+string(12) "CLASIFICADOR"
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+0PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Constant ADODB_ASSOC_CASE already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 49
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 50
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+string(12) "CLASIFICADOR"
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: entidad in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 2
+PHP Notice:  Undefined index: httpOrfeoRemoto in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 26
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+<?
+  include "../config.php";
+  $admPHPMailer = $correoSaliente;
+  $userPHPMailer = $correoSaliente;
+  $passwdPHPMailer = $passwordCorreoSaliente;
+  $correoSalienteFormWeb = $correoSaliente;
+  $passwordCorreoSalienteFormWeb = $passwordCorreoSaliente;
+  $hostPHPMailer = $servidorSmtp;  // Para fuera Gmail es "ssl://smtp.gmail.com"
+  $portPHPMailer = $puertoSmtp;    // Para Gmail el Puerto es "465"
+  $debugPHPMailer = "1";  // Si esta en 2 mostrara una depuracion al enviar correo.  En 1 los evita.
+  $asuntoMailReasignado = "Llegada de Radicado $radicadosSelText";
+  $asuntoMailRadicado = "Llegada de Radicado nuevo $radicadosSelText";
+  $asuntoMailInformado = "Lo han informado de un radicado $radicadosSelText";
+  $asuntoMailNotificaTipoDoc = "Radicado  Vencido $radicadosSelText";
+  // $usuarioEmailPQRS     = "atencionpqrs";
+
+  /* Reemplazando
+  $admPHPMailer = "correlibre@gmail.com";
+  $userPHPMailer = "correlibre";
+  $passwdPHPMailer = 'xxxxxx';
+  $hostPHPMailer = "ssl://smtp.gmail.com";      // Para fuera Gmail es "ssl://smtp.gmail.com"
+  $portPHPMailer = "465";                         // Para Gmail el Puerto es "465"
+  $debugPHPMailer = "1";  // Si esta en 2 mostrara una depuracion al enviar correo.  En 1 los evita.
+  $asuntoMailReasignado = "Llegada de Radicado $radicadosSelText";
+  $asuntoMailRadicado = "Llegada de Radicado nuevo $radicadosSelText";
+  $asuntoMailInformado = "Lo han informado de un radicado $radicadosSelText";
+  $asuntoMailNotificaTipoDoc = "Radicado  Vencido $radicadosSelText";
+  $servidorOrfeoBodega = "http://192.168.0.12/orfeo-3.8.0/bodega/";
+  $usuarioEmailPQRS     = "atencionpqrs";
+  $emailPQRS            = "atencionpqrs@entidad.gov.co";
+  $passwordEmailPQRS    = "contraseñacorreo";
+  #Si es un exchange esto puede ser necesario
+  #$tipoAutenticacion    = "NTLM";
+  */
+?>
+PHP Notice:  Constant ADODB_ASSOC_CASE already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 49
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 50
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined variable: linkImagenes in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 147
+PHP Notice:  Undefined index: depe_nomb in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 152
+PHP Notice:  Undefined variable: radPadre in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 153
+PHP Notice:  Undefined variable: nombre_us1 in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 154
+PHP Notice:  Undefined variable: prim_apel_us1 in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 154
+PHP Notice:  Undefined variable: seg_apel_us1 in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 154
+PHP Notice:  Undefined variable: otro_us1 in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 154
+PHP Notice:  Undefined variable: nombre_us in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 156
+PHP Notice:  Undefined variable: radicadopadre in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 157
+<br><b> - Enviado correctamente a:</b>  atencionciudadano@supertransporte.gov.co</br>
+27-09-2021 (16:34:16)***********POR AQUI VA EL CODIGO**********PHP Notice:  Undefined variable: intentosCopia in /var/www/html/argogpl/radiMail4/readmail.php on line 389
+SE MUEVE EL RADICADO A LA BANDEJA RADICADOSAQUI SE ELIMINA DEFINITIVAMENTE******************SE CIERRA LA CONEXION*****SALIDAD DE LA ITERACION*********PHP Notice:  Unknown: Some of the requested messages no longer exist. (errflg=2) in Unknown on line 0
+PHP Notice:  Unknown: Some of the requested messages no longer exist. (errflg=2) in Unknown on line 0

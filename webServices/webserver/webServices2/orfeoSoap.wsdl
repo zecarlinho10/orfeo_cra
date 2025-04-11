@@ -1,0 +1,5 @@
+<service name="OrfeoServicio">
+  <port name="OrfeoPort" binding="tns:OrfeoBinding">
+    <soap:address location="http://localhost/orfeocore/webServices2/servidor2.php" />
+  </port>
+</service>

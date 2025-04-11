@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="de" xml:lang="de" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Help: Searching with open semantic search</title>
+  <meta name="robots" content="index" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="author" content="Markus Mandalka"/>
+  <meta name="description" content="Suchen mit Open Semantic Search" />
+  </head>
+<body>
+
+<h1>Help: Searching with open semantic search</h1>
+
+<b>Search operators and queries</b>:
+<ul>
+<li><i>corrupt*</i> will find corrupt, corrupt<i>ion</i>, corrupt<i>ed</i> ...</li>
+<li>AND: <i>search engine</i> will find all documents which contains the words engine AND search
+<li>OR: <i>search OR research</i> will find all documents which contains the word search or the word research
+<li>Combine criterias: <i>(search OR research) AND (engine OR software)</i> 
+<li>Phrase search: <i>"search engine"</i> will find exactly this phrase and will not find <i>i search an engine</i></li>
+<li>Exclude: <i>search -engine</i> will find all documents which contain the word search and do not contain the word engine
+<li>Fuzzy search: <i>similar~ words~</i> would find <i>similer works</i>, because both words are set to fuzzy search. Usefull if you want to consider typos in the documents or if some documents are images or scanned documents (like pdf-documents containing scanned pages only in graphical formats instead of digital text), so you maybe find more documents for your query even if the results of automated text-recognition (ocr) are not perfect)</li>
+
+</ul>
+
+
+
+</body>
+</html>

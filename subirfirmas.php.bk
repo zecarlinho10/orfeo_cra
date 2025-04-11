@@ -1,0 +1,90 @@
+<?php
+
+#echo "subi firmas"; exit;
+$lim_tam = "1024000";
+
+$image_firma_name = $_FILES['file1']['name'];
+$image_firma_size = $_FILES['file1']['size'];
+$image_firma_type = $_FILES['file1']['type'];
+$image_firma_upload = $_FILES['file1']['tmp_name'];
+
+
+$p12_firma_name = $_FILES['file2']['name'];
+$p12_firma_size = $_FILES['file2']['size'];
+$p12_firma_type = $_FILES['file2']['type'];
+$p12_firma_upload = $_FILES['file2']['tmp_name'];
+
+
+
+if($_FILES['file1']['error']==1){
+print "
+<script>
+alert('El Archivo supera el límite de tamaño, por favor seleccione un archivo diferente.')
+
+</script>
+";
+}else if($file1_size>$lim_tam){
+print "
+<script>
+alert('El Archivo supera el límite de tamaño, por favor seleccione un archivo diferente.')
+
+</script>
+";
+} else if($_FILES['file1']['error']!=0){
+print "
+<script>
+alert('Error de Archivo, el archivo no se puede subir.')
+
+</script>
+";
+}
+else {
+
+if (!defined('ADODB_ASSOC_CASE')) define('ADODB_ASSOC_CASE',1);
+
+#include ("$ruta_raiz/adodb/adodb.inc.php");
+#include_once ("$ruta_raiz/adodb/adodb-paginacion.inc.php");
+#include_once ("$ruta_raiz/adodb/tohtml.inc.php");
+include ("$ruta_raiz/config.php");
+
+$ADODB_COUNTRECS = false;
+$db->driver = driver;
+$db->conn  = NewADOConnection("$driver");
+$db->rutaRaiz = $ruta_raiz;
+
+#Conecto nuevamente , por si la instancia de las firmas se guarda en otra base de datos 
+if ($db->conn->Connect($servidor,$usuario,$contrasena,$servicio) == false)
+die(echo "Error de conexi&oacute;n a la B.D.");
+
+echo "--->>>>>>>>><<<-----"; exit;
+#Exclusivo para oracle.
+$lob = oci_new_descriptor($conn, OCI_D_LOB);
+
+//Preparem la consulta SQL(INSERT) capaç d'introduir els valors a la base de dades.
+#$stmt = oci_parse($conn,"INSERT INTO BINARY_DATA (id,description,bin_data,filename,filesize,filetype) VALUES (LOBO.NEXTVAL,'$lob_description',EMPTY_BLOB(),'$file1_name','$file1_size','$file1_type') returning BIN_DATA into :the_blob");
+$stmt = oci_parse($conn,"INSERT INTO USUF_FIRMA (id,usuf_archivop12,usuf_observacion,usuf_clave,usuf_vfechaini,usuf_vfechafin,ID_USUARIO) VALUES ($usua_codi,EMPTY_BLOB(),'observacion','clave',SYSDATE,SYSDATE,$usua_codi) returning BIN_DATA into :the_blob");
+
+/* Enlaza una variable PHP a un Placeholder de Oracle
+Enllaça la variable PHP variable a un placeholder d'ORACLE ph_name. Si aquesta serà usada per entrada o
+o sortida es determinarà en temps d'execució, i serà reservat l'espai necessari d'emmagatzemament. El
+parametre lenght estableix el tamany màxim de l'enllaç. Si s'estableix length a -1 OCIBindByName utilitzarà
+el tamany de la variable per establir el tamany màxim.
+EN LA ULTIMA PRUEBA QUE SE REALIZÓ EL 07/01/2011 ESTE VALOR $LOB VENÍA PASADO POR REFERENCIA &$LOB NO OBSTANTE ESTO ES UN ERROR EN ESTE CASO
+*/
+oci_bind_by_name($stmt, ':the_blob',$lob, -1, OCI_B_BLOB);
+
+//Ejecucion de la sentencia.
+oci_execute($stmt, OCI_DEFAULT);
+if($lob->savefile($file1))
+{
+oci_commit($conn);
+echo "Blob successfully uploaded\n<br>";
+echo "<a href=show.php>SHOW FILES</a>";
+}
+else
+{
+echo "Couldn't upload Blob\n";
+}
+oci_free_statement($stmt);
+oci_close($conn);
+}

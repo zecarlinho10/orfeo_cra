@@ -1,0 +1,6 @@
+{
+    "require": {
+        "microsoft/microsoft-graph": "^1.8",
+        "vgrem/php-spo": "^2.4"
+    }
+}

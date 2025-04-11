@@ -1,0 +1,1392 @@
+﻿PHP Notice:  Constant FPDF_FONTPATH already defined in /var/www/html/argogpl/fpdf182/html2pdf.php on line 6
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/adodb/adodb.inc.php on line 108
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+27-09-2021 (17:52:30)*********************LECTURA DE TIMEOUT****45
+********tiempo actualizado de lectura*****
+906927-09-2021 (17:52:30)27-09-2021 (17:52:35)asistentegerencia@biptransportes.com****penultimo remitente****AQUI VA LA SECCION DEL CORREOstring(5) "1.1.2"
+PHP Notice:  Undefined variable: charset in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 273
+PHP Notice:  Undefined variable: charset in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 274
+PHP Notice:  Undefined variable: charset in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 277
+PHP Notice:  Undefined variable: charset in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 278
+PHP Notice:  Undefined variable: charset in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 281
+object(stdClass)#27 (11) {
+  ["type"]=>
+  int(1)
+  ["encoding"]=>
+  int(0)
+  ["ifsubtype"]=>
+  int(1)
+  ["subtype"]=>
+  string(5) "MIXED"
+  ["ifdescription"]=>
+  int(0)
+  ["ifid"]=>
+  int(0)
+  ["ifdisposition"]=>
+  int(0)
+  ["ifdparameters"]=>
+  int(0)
+  ["ifparameters"]=>
+  int(1)
+  ["parameters"]=>
+  array(1) {
+    [0]=>
+    object(stdClass)#31 (2) {
+      ["attribute"]=>
+      string(8) "boundary"
+      ["value"]=>
+      string(41) "----=_NextPart_000_0030_01D7B09B.EC5F5890"
+    }
+  }
+  ["parts"]=>
+  array(2) {
+    [0]=>
+    object(stdClass)#39 (11) {
+      ["type"]=>
+      int(1)
+      ["encoding"]=>
+      int(0)
+      ["ifsubtype"]=>
+      int(1)
+      ["subtype"]=>
+      string(7) "RELATED"
+      ["ifdescription"]=>
+      int(0)
+      ["ifid"]=>
+      int(0)
+      ["ifdisposition"]=>
+      int(0)
+      ["ifdparameters"]=>
+      int(0)
+      ["ifparameters"]=>
+      int(1)
+      ["parameters"]=>
+      array(1) {
+        [0]=>
+        object(stdClass)#28 (2) {
+          ["attribute"]=>
+          string(8) "boundary"
+          ["value"]=>
+          string(41) "----=_NextPart_001_0031_01D7B09B.EC5F7FA0"
+        }
+      }
+      ["parts"]=>
+      array(2) {
+        [0]=>
+        object(stdClass)#41 (11) {
+          ["type"]=>
+          int(1)
+          ["encoding"]=>
+          int(0)
+          ["ifsubtype"]=>
+          int(1)
+          ["subtype"]=>
+          string(11) "ALTERNATIVE"
+          ["ifdescription"]=>
+          int(0)
+          ["ifid"]=>
+          int(0)
+          ["ifdisposition"]=>
+          int(0)
+          ["ifdparameters"]=>
+          int(0)
+          ["ifparameters"]=>
+          int(1)
+          ["parameters"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#30 (2) {
+              ["attribute"]=>
+              string(8) "boundary"
+              ["value"]=>
+              string(41) "----=_NextPart_002_0032_01D7B09B.EC5F7FA0"
+            }
+          }
+          ["parts"]=>
+          array(2) {
+            [0]=>
+            object(stdClass)#37 (12) {
+              ["type"]=>
+              int(0)
+              ["encoding"]=>
+              int(4)
+              ["ifsubtype"]=>
+              int(1)
+              ["subtype"]=>
+              string(5) "PLAIN"
+              ["ifdescription"]=>
+              int(0)
+              ["ifid"]=>
+              int(0)
+              ["lines"]=>
+              int(26)
+              ["bytes"]=>
+              int(1439)
+              ["ifdisposition"]=>
+              int(0)
+              ["ifdparameters"]=>
+              int(0)
+              ["ifparameters"]=>
+              int(1)
+              ["parameters"]=>
+              array(1) {
+                [0]=>
+                object(stdClass)#29 (2) {
+                  ["attribute"]=>
+                  string(7) "charset"
+                  ["value"]=>
+                  string(5) "utf-8"
+                }
+              }
+            }
+            [1]=>
+            object(stdClass)#33 (12) {
+              ["type"]=>
+              int(0)
+              ["encoding"]=>
+              int(4)
+              ["ifsubtype"]=>
+              int(1)
+              ["subtype"]=>
+              string(4) "HTML"
+              ["ifdescription"]=>
+              int(0)
+              ["ifid"]=>
+              int(0)
+              ["lines"]=>
+              int(90)
+              ["bytes"]=>
+              int(3951)
+              ["ifdisposition"]=>
+              int(0)
+              ["ifdparameters"]=>
+              int(0)
+              ["ifparameters"]=>
+              int(1)
+              ["parameters"]=>
+              array(1) {
+                [0]=>
+                object(stdClass)#32 (2) {
+                  ["attribute"]=>
+                  string(7) "charset"
+                  ["value"]=>
+                  string(5) "utf-8"
+                }
+              }
+            }
+          }
+        }
+        [1]=>
+        object(stdClass)#34 (12) {
+          ["type"]=>
+          int(5)
+          ["encoding"]=>
+          int(3)
+          ["ifsubtype"]=>
+          int(1)
+          ["subtype"]=>
+          string(3) "PNG"
+          ["ifdescription"]=>
+          int(0)
+          ["ifid"]=>
+          int(1)
+          ["id"]=>
+          string(32) "<image001.png@01D7B09A.B8D22170>"
+          ["bytes"]=>
+          int(43960)
+          ["ifdisposition"]=>
+          int(0)
+          ["ifdparameters"]=>
+          int(0)
+          ["ifparameters"]=>
+          int(1)
+          ["parameters"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#40 (2) {
+              ["attribute"]=>
+              string(4) "name"
+              ["value"]=>
+              string(12) "image001.png"
+            }
+          }
+        }
+      }
+    }
+    [1]=>
+    object(stdClass)#35 (13) {
+      ["type"]=>
+      int(3)
+      ["encoding"]=>
+      int(3)
+      ["ifsubtype"]=>
+      int(1)
+      ["subtype"]=>
+      string(3) "PDF"
+      ["ifdescription"]=>
+      int(0)
+      ["ifid"]=>
+      int(0)
+      ["bytes"]=>
+      int(676084)
+      ["ifdisposition"]=>
+      int(1)
+      ["disposition"]=>
+      string(10) "attachment"
+      ["ifdparameters"]=>
+      int(1)
+      ["dparameters"]=>
+      array(1) {
+        [0]=>
+        object(stdClass)#38 (2) {
+          ["attribute"]=>
+          string(8) "filename"
+          ["value"]=>
+          string(34) "SOLICITUD SUPERPUERTOS firmado.pdf"
+        }
+      }
+      ["ifparameters"]=>
+      int(1)
+      ["parameters"]=>
+      array(1) {
+        [0]=>
+        object(stdClass)#36 (2) {
+          ["attribute"]=>
+          string(4) "name"
+          ["value"]=>
+          string(34) "SOLICITUD SUPERPUERTOS firmado.pdf"
+        }
+      }
+    }
+  }
+}
+array(1) {
+  [0]=>
+  string(43960) "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
++/LSpmEsqttGN12qWigjAt8EthvtK59QrhopcCTElhukqlopVM87p8Jy9gBHi9jojVp3scJYGXqJ
+guzCmonrd1yuXn+xoqt/gja+5lZF/ff7N5yLall7sdK6qne3TKReW/w7bHRPW7XZe9VGj1Xr3X95
+Jra595a9f9jUQmIc6hKkjo6ODvQP9KgvRm2orasqLy/My0tPTMpISTUile8LlBCcTkzOjmT9btPx
+SeVWU47yYdLKIcY76BxSFihdhR3YGI/qBqTo05ThGRuMJ6eVsw5sKPxSq61gWjn/qJW+SF65E9Yo
+cpFOZaiJivtpg5/FMop0Gz56/dFCFVZ+MWZ0g43SjEcVaiu7VFWcSeePTV6l/6Uhao6PikykXluD
+YxN/+rrXqnVuq15yXPWy06otV354OKy9f86LKk3dcqks1aRc7teR2tUtSK0sU+7zT46Lt0CqKVNL
+KBOp11ZEcfMn1jqvetlZQapQ9RW/M/HaU9ZN3SZpNFVDVCNSuzuUt/jV19SWF5fkZWUlx8dnpppI
+NbVcZCL12nrJNWXVJi+Np/LZ5L3TP0c7bOr2SAOqilS5NjU6oiK1s6ulWUVqSUleZpYSpSabSDW1
+XGQi9Rpq6x/5m91+qza4G5G6erPP6bhSzcLU7ZEG1BmkKqv7h4f7+/u6O5UnpdbV1JYRpWZmJsTE
+JMbGm0g1tUxkIvUa8sutX7XBw8jTVWtdPrnBNb68VbO4KdV1DQ2NWb6S05QujaaqFKTKA1OGhwf6
++zrb25sbGuuqaxSkZmXFR0cnxsaZSDW1TGQi9Rp65FycJVI3en7/YMj4Apdcr1OveGY8diFxwgTB
+AtJoqgpcandQDQ0pN6W2ziI1Pys7kSg1zoxSTS0XmUhdTA09Q5/f7LZqnasBqU6r1l8+FFGkWdyU
+ekfG/3qX7+qt/pvc04x3sZjSJSQVpBKi6kjt7e5pa21ramhQkFpUnMvEPzomOT7BYvWUKVNLJROp
+i+lIRKESor7sNIvUtS6f2uBc0znPa9+vX2fjy1atd1dI/bJTWFGzlmrKIIGpCKQq51LHxgYHVaS2
+tDbWNdRUVhXn52enpcdFRiWBVPOXydTykInUBTU8PvkfxyNWbZxzrX/1Jq9HzsUudKP19ahvZOKh
+dwPU611OqzZ6bnRP0w6YMkhgKpJnUI2Njg4ODPZ0d7e3toFUZelUXn5ORkZsRERMZJQ58Te1TGQi
+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
+"
+}
+PHP Notice:  DOMDocument::loadHTML(): Namespace prefix o is not defined in Entity, line: 53 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Warning:  DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 53 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Notice:  DOMDocument::loadHTML(): Namespace prefix o is not defined in Entity, line: 54 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Warning:  DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 54 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Notice:  DOMDocument::loadHTML(): Namespace prefix o is not defined in Entity, line: 55 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Warning:  DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 55 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Notice:  DOMDocument::loadHTML(): Namespace prefix o is not defined in Entity, line: 56 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Warning:  DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 56 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Notice:  DOMDocument::loadHTML(): Namespace prefix o is not defined in Entity, line: 57 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Warning:  DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 57 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Notice:  DOMDocument::loadHTML(): Namespace prefix o is not defined in Entity, line: 58 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Warning:  DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 58 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Notice:  DOMDocument::loadHTML(): Namespace prefix o is not defined in Entity, line: 59 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Warning:  DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 59 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Notice:  DOMDocument::loadHTML(): Namespace prefix o is not defined in Entity, line: 60 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+PHP Warning:  DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 60 in /var/www/html/argogpl/radiMail4/ReadMail.class.php on line 308
+***********Aqui va el asunto************string(27) "SOLICITUD ESTADO DE CUENTA "
+***************************Aqui va la verificacion de repitencia*************string(0) ""
+PHP Notice:  Undefined variable: eml_str in /var/www/html/argogpl/radiMail4/readmail.php on line 218
+int(0)
+string(36) "asistentegerencia@biptransportes.com"
+string(26) "vur@supertransporte.gov.co"
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Warning:  session_start(): Cannot start session when headers already sent in /var/www/html/argogpl/radiMail4/RadicarMail.class.php on line 397
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: _SESSION in /var/www/html/argogpl/adodb/adodb.inc.php on line 892
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: _SESSION in /var/www/html/argogpl/adodb/adodb.inc.php on line 892
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: SGD_CIU_CODIGO in /var/www/html/argogpl/radiMail4/RadicarMail.class.php on line 515
+PHP Notice:  Undefined variable: id in /var/www/html/argogpl/include/tx/Radicacion.php on line 96
+PHP Notice:  Undefined index: digitosDependencia in /var/www/html/argogpl/include/tx/Radicacion.php on line 100
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Constant ADODB_ASSOC_CASE already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 49
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 50
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+string(12) "CLASIFICADOR"
+PHP Notice:  Undefined index: unicoconsecutivo in /var/www/html/argogpl/include/tx/Radicacion.php on line 136
+PHP Notice:  Undefined property: Radicacion::$idPais in /var/www/html/argogpl/include/tx/Radicacion.php on line 195
+PHP Notice:  Undefined variable: resul in /var/www/html/argogpl/include/tx/TipoDocumental.php on line 272
+PHP Notice:  Undefined index: varEstaenfisico in /var/www/html/argogpl/include/tx/Radicacion.php on line 284
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: RUTA_ABSOLUTA in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 230
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: RUTA_ABSOLUTA in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 230
+PHP Notice:  Undefined variable: retval in /var/www/html/argogpl/radiMail4/RadicarMail.class.php on line 615
+****HIZO UN RADICADO*******AVANZO OTRO POCO***27-09-2021 (17:52:38)PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Constant ADODB_ASSOC_CASE already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 49
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 50
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+string(12) "CLASIFICADOR"
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+***********ACTUALIZANDO PERSISTENCIA EML*************PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+27-09-2021 (17:52:39) Éxito: Se creó correctamente el radicado 20215341639262 del correo vur@supertransporte.gov.co mensaje numero 1
+69PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Constant ADODB_ASSOC_CASE already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 49
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 50
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+string(12) "CLASIFICADOR"
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+1PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Constant ADODB_ASSOC_CASE already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 49
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 50
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+string(12) "CLASIFICADOR"
+3PHP Notice:  Only variables should be passed by reference in /var/www/html/argogpl/radiMail4/RadicarMail.class.php on line 1067
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1632779559',  '9999999',  ' - ',  'i',  '', '2021-09-27 17:52:39> INSERT INTO
+                                      ANEXOS
+                                      (ANEX_CODIGO, 
+                                      ANEX_RADI_NUME, 
+                                      ANEX_TIPO, 
+                                      ANEX_TAMANO, 
+                                      ANEX_SOLO_LECT, 
+                                      ANEX_CREADOR, 
+                                      ANEX_DESC, 
+                                      ANEX_NUMERO, 
+                                      ANEX_NOMB_ARCHIVO, 
+                                      ANEX_ESTADO, 
+                                      SGD_REM_DESTINO, 
+                                      ANEX_FECH_ANEX, 
+                                      ANEX_BORRADO)
+                                  VALUES
+                                      (^2021534163926200003^, 
+                                      20215341639262, 
+                                      7, 
+                                      494059, 
+                                      ^N^, 
+                                      ^CLASIFICADOR^, 
+                                      ^ADJUNTO A CORREO ELECTR&OACUTE;NICO: SOLICITUD SUPERPUERTOS FIRMADO.PDF^
+                                      , 3
+                                      , ^2021534163926200003.PDF^
+                                      , 0
+                                      , 1
+                                      , (CURRENT_TIMESTAMP+INTERVAL^0 DAYS^)
+                                      , ^N^)')
+-----
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1632779559',  '9999999',  ' - ',  'i',  '', '2021-09-27 17:52:39> INSERT INTO
+                                      ANEXOS
+                                      (ANEX_CODIGO, 
+                                      ANEX_RADI_NUME, 
+                                      ANEX_TIPO, 
+                                      ANEX_TAMANO, 
+                                      ANEX_SOLO_LECT, 
+                                      ANEX_CREADOR, 
+                                      ANEX_DESC, 
+                                      ANEX_NUMERO, 
+                                      ANEX_NOMB_ARCHIVO, 
+                                      ANEX_ESTADO, 
+                                      SGD_REM_DESTINO, 
+                                      ANEX_FECH_ANEX, 
+                                      ANEX_BORRADO)
+                                  VALUES
+                                      (^2021534163926200003^, 
+                                      20215341639262, 
+                                      7, 
+                                      494059, 
+                                      ^N^, 
+                                      ^CLASIFICADOR^, 
+                                      ^ADJUNTO A CORREO ELECTR&OACUTE;NICO: SOLICITUD SUPERPUERTOS FIRMADO.PDF^
+                                      , 3
+                                      , ^2021534163926200003.PDF^
+                                      , 0
+                                      , 1
+                                      , (CURRENT_TIMESTAMP+INTERVAL^0 DAYS^)
+                                      , ^N^)')
+-----
+-----
+(postgres7): INSERT INTO
+                                      ANEXOS
+                                      (ANEX_CODIGO, 
+                                      ANEX_RADI_NUME, 
+                                      ANEX_TIPO, 
+                                      ANEX_TAMANO, 
+                                      ANEX_SOLO_LECT, 
+                                      ANEX_CREADOR, 
+                                      ANEX_DESC, 
+                                      ANEX_NUMERO, 
+                                      ANEX_NOMB_ARCHIVO, 
+                                      ANEX_ESTADO, 
+                                      SGD_REM_DESTINO, 
+                                      ANEX_FECH_ANEX, 
+                                      ANEX_BORRADO)
+                                  VALUES
+                                      ('2021534163926200003', 
+                                      20215341639262, 
+                                      7, 
+                                      494059, 
+                                      'n', 
+                                      'CLASIFICADOR', 
+                                      'Adjunto a correo electr&oacute;nico: SOLICITUD SUPERPUERTOS firmado.pdf'
+                                      , 3
+                                      , '2021534163926200003.pdf'
+                                      , 0
+                                      , 1
+                                      , (CURRENT_TIMESTAMP+interval'0 days')
+                                      , 'N')
+-----
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1632779559',  '9999999',  ' - ',  'u',  'RADICADO', '2021-09-27 17:52:39> UPDATE RADICADO SET RADI_NUME_ANEXO=1 WHERE RADI_NUME_RADI=20215341639262')
+-----
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1632779559',  '9999999',  ' - ',  'u',  'RADICADO', '2021-09-27 17:52:39> UPDATE RADICADO SET RADI_NUME_ANEXO=1 WHERE RADI_NUME_RADI=20215341639262')
+-----
+-----
+(postgres7): UPDATE RADICADO SET RADI_NUME_ANEXO=1 WHERE RADI_NUME_RADI=20215341639262
+-----
+-Para el radicado 20215341639262 se crearon correctamente los anexos 2021534163926200003
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1632779559',  '9999999',  ' - ',  'u',  'RADICADO', '2021-09-27 16:52:39> UPDATE RADICADO SET RADI_PATH=^2021/534/20215341639262.PDF^ WHERE RADI_NUME_RADI=^20215341639262^')
+-----
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+-----
+(postgres7): INSERT INTO SGD_AUDITORIA (FECHA,  USUA_DOC,  IP,  TIPO,  TABLA,  ISQL) VALUES ('1632779559',  '9999999',  ' - ',  'u',  'RADICADO', '2021-09-27 16:52:39> UPDATE RADICADO SET RADI_PATH=^2021/534/20215341639262.PDF^ WHERE RADI_NUME_RADI=^20215341639262^')
+-----
+-----
+(postgres7): UPDATE RADICADO SET RADI_PATH='2021/534/20215341639262.pdf' where RADI_NUME_RADI='20215341639262'
+-----
+PHP Notice:  Undefined index: entidad in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 2
+-----
+(postgres7): select RADI_NUME_RADI,  RADI_PATH,  RA_ASUN
+                from RADICADO
+                where RADI_NUME_RADI IN (20215341639262)
+-----
+PHP Notice:  Undefined index: httpOrfeoRemoto in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 26
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+<?
+  include "../config.php";
+  $admPHPMailer = $correoSaliente;
+  $userPHPMailer = $correoSaliente;
+  $passwdPHPMailer = $passwordCorreoSaliente;
+  $correoSalienteFormWeb = $correoSaliente;
+  $passwordCorreoSalienteFormWeb = $passwordCorreoSaliente;
+  $hostPHPMailer = $servidorSmtp;  // Para fuera Gmail es "ssl://smtp.gmail.com"
+  $portPHPMailer = $puertoSmtp;    // Para Gmail el Puerto es "465"
+  $debugPHPMailer = "1";  // Si esta en 2 mostrara una depuracion al enviar correo.  En 1 los evita.
+  $asuntoMailReasignado = "Llegada de Radicado $radicadosSelText";
+  $asuntoMailRadicado = "Llegada de Radicado nuevo $radicadosSelText";
+  $asuntoMailInformado = "Lo han informado de un radicado $radicadosSelText";
+  $asuntoMailNotificaTipoDoc = "Radicado  Vencido $radicadosSelText";
+  // $usuarioEmailPQRS     = "atencionpqrs";
+
+  /* Reemplazando
+  $admPHPMailer = "correlibre@gmail.com";
+  $userPHPMailer = "correlibre";
+  $passwdPHPMailer = 'xxxxxx';
+  $hostPHPMailer = "ssl://smtp.gmail.com";      // Para fuera Gmail es "ssl://smtp.gmail.com"
+  $portPHPMailer = "465";                         // Para Gmail el Puerto es "465"
+  $debugPHPMailer = "1";  // Si esta en 2 mostrara una depuracion al enviar correo.  En 1 los evita.
+  $asuntoMailReasignado = "Llegada de Radicado $radicadosSelText";
+  $asuntoMailRadicado = "Llegada de Radicado nuevo $radicadosSelText";
+  $asuntoMailInformado = "Lo han informado de un radicado $radicadosSelText";
+  $asuntoMailNotificaTipoDoc = "Radicado  Vencido $radicadosSelText";
+  $servidorOrfeoBodega = "http://192.168.0.12/orfeo-3.8.0/bodega/";
+  $usuarioEmailPQRS     = "atencionpqrs";
+  $emailPQRS            = "atencionpqrs@entidad.gov.co";
+  $passwordEmailPQRS    = "contraseñacorreo";
+  #Si es un exchange esto puede ser necesario
+  #$tipoAutenticacion    = "NTLM";
+  */
+?>
+PHP Notice:  Constant ADODB_ASSOC_CASE already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 49
+PHP Notice:  Constant ADODB_FETCH_ASSOC already defined in /var/www/html/argogpl/include/db/ConnectionHandler.php on line 50
+PHP Notice:  Constant SMARTY_DIR already defined in /var/www/html/argogpl/config.php on line 34
+PHP Notice:  Constant SMARTY_LIBRARY already defined in /var/www/html/argogpl/config.php on line 35
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /var/www/html/argogpl/adodb/adodb.inc.php on line 855
+PHP Notice:  Undefined index: HTTP_CLIENT_IP in /var/www/html/argogpl/adodb/adodb.inc.php on line 857
+PHP Notice:  Undefined index: REMOTE_ADDR in /var/www/html/argogpl/adodb/adodb.inc.php on line 860
+PHP Notice:  Undefined variable: pos in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined index:  in /var/www/html/argogpl/adodb/adodb.inc.php on line 884
+PHP Notice:  Undefined variable: type in /var/www/html/argogpl/adodb/adodb.inc.php on line 889
+PHP Notice:  Undefined variable: linkImagenes in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 147
+PHP Notice:  Undefined index: depe_nomb in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 152
+PHP Notice:  Undefined variable: radPadre in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 153
+PHP Notice:  Undefined variable: nombre_us1 in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 154
+PHP Notice:  Undefined variable: prim_apel_us1 in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 154
+PHP Notice:  Undefined variable: seg_apel_us1 in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 154
+PHP Notice:  Undefined variable: otro_us1 in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 154
+PHP Notice:  Undefined variable: nombre_us in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 156
+PHP Notice:  Undefined variable: radicadopadre in /var/www/html/argogpl/include/mail/GENERAL.mailInformar.php on line 157
+<br><b> - Enviado correctamente a:</b>  asistentegerencia@biptransportes.com</br>
+27-09-2021 (16:52:41)***********POR AQUI VA EL CODIGO**********SE MUEVE EL RADICADO A LA BANDEJA RADICADOSPHP Notice:  Undefined variable: intentosCopia in /var/www/html/argogpl/radiMail4/readmail.php on line 390
+AQUI SE ELIMINA DEFINITIVAMENTE******************SE CIERRA LA CONEXION*****SALIDAD DE LA ITERACION*********

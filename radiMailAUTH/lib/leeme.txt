@@ -1,0 +1,26 @@
+total 116
+-rw-r--r--.  1 root     root      1022 mar  3 14:00 02-consultar-token.php
+-rw-r--r--.  1 root     root       534 mar  3 14:11 01-leer-token.php
+-rw-r--r--.  1 root     root       601 mar  3 14:16 03-otro.php
+-rw-r--r--.  1 root     root       199 mar  3 14:39 config.php
+-rw-r--r--.  1 root     root      1993 mar  3 18:27 05-cricaurte.php
+-rw-r--r--.  1 root     root      1640 mar  3 18:32 uno.txt
+-rw-r--r--.  1 root     root      1640 mar  3 18:32 dos.txt
+-rw-r--r--.  1 root     root      1640 mar  3 18:32 tercero.txt
+-rw-r--r--.  1 root     root      6459 mar  3 18:39 05-get-correo.php
+-rw-r--r--.  1 root     root      1503 mar  8 12:34 07-valida-email.php
+-rw-r--r--.  1 root     root      1010 mar  8 12:40 04-get-token.php
+drwxr-xr-x.  8 root     root      4096 mar  8 13:44 ..
+drwxr-xr-x.  4 admincra admincra   165 mar  8 16:04 PHPMailer-master --> Libreria Locales de PHPMailer
+-rw-r--r--.  1 root     root       144 mar  8 16:21 composer.json
+-rw-r--r--.  1 root     root     32196 mar  8 16:21 composer.lock
+drwxr-xr-x. 11 root     root       168 mar  9 09:53 vendor --> Directorio de libreria de composer, con las librerias de Microsof Graph
+-rw-r--r--.  1 root     root      1925 mar  9 10:02 76-enviar-php-mailer.php --> Trata de enviar correo con libreria PhpMailer con protocolo Oauth 2.0
+-rw-r--r--.  1 root     root      1987 mar  9 10:13 75-enviar-correo.php  --> Trata de enviar correo utilizando PhpMailer Local
+-rw-r--r--.  1 root     root       931 mar  9 10:47 04-get_only_token.php --> Imprime El Token 
+-rw-r--r--.  1 root     root      2356 mar  9 12:02 77-enviar-correo.php --> Trata de enviar correos con la lib Graph
+-rw-r--r--.  1 root     root      2130 mar  9 12:21 78-enviar-correo.php --> Trata de envciar correos con Json
+-rw-r--r--.  1 root     root      1024 mar  9 12:28 74-get-getBuzon.php  --> Lee el buzon de correo@cra.gov.co	
+-rw-r--r--.  1 root     root         0 mar  9 12:32 leeme.txt
+-rw-r--r--.  1 root     root       199 mar  3 14:39 config.php --> Archivo de configuracion de Conexion 
+drwxr-xr-x.  4 root     root      4096 mar  9 12:32 .

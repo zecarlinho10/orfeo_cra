@@ -1,0 +1,243 @@
+<?php
+error_reporting(0);
+$krdOld = $krd;
+$carpetaOld = $carpeta;
+$tipoCarpOld = $tipo_carp;
+session_start();
+if(!$krd) $krd=$krdOsld;
+$ruta_raiz = ".";
+if (!isset($_SESSION['dependencia']))	include "./rec_session.php";
+$ADODB_COUNTRECS = false;
+require_once("$ruta_raiz/include/db/ConnectionHandler.php");
+require_once("$ruta_raiz/include/combos.php");
+if(!$carpeta) $carpeta = $carpetaOld;
+$ADODB_COUNTRECS = false;
+error_reporting(0);
+$db = new ConnectionHandler($ruta_raiz);
+//$db->conn->debug = true;
+$db->conn->SetFetchMode(ADODB_FETCH_ASSOC);
+$busq_expediente=$_POST['busq_expediente'];
+// Procedimiento para filtro de radicados....
+if($busq_expediente)
+{
+	$busq_expediente = trim($busq_expediente);
+	$textElements = explode (",", $busq_expediente);
+	$newText = "";
+	$dep_sel = $dependencia;
+	foreach ($textElements as $item)
+	{	$item = trim ( $item );
+		if ( strlen ( $item ) != 0)
+		{	if(strlen($item)<=6)
+			{	$sec = str_pad($item,6,"0",STR_PAD_left);
+				//$item = date("Y") . $dep_sel . $sec;
+			}
+			else
+			{}
+			$busq_expediente_tmp .= " sb.sgd_exp_numero like '%$item%' or";
+		}
+	}
+	if(substr($busq_expediente_tmp,-2)=="or")   $busq_expediente_tmp = substr($busq_expediente_tmp,0,strlen($busq_expediente_tmp)-2);
+	if(trim($busq_expediente_tmp))  $where_filtro .= "and ( $busq_expediente_tmp ) ";
+}
+?>
+<html><head><title>.: Cierre Expedientes :.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="estilos/orfeo.css">
+<style type="text/css">
+<!--
+.textoOpcion {  font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000; text-decoration: underline}
+-->
+</style>
+<!-- seleccionar todos los checkboxes-->
+<script>
+
+
+function markAll()
+{
+	if(document.form1.elements['checkAll'].checked)
+		for(i=10;i<document.form1.elements.length;i++)
+			document.form1.elements[i].checked=1;
+	else
+		for(i=10;i<document.form1.elements.length;i++)
+			document.form1.elements[i].checked=0;
+}
+
+
+function enviar()
+{
+document.form1.codTx.value = document.getElementById('enviara').value;
+sw = 0;
+cnt_notinf = 0;
+cnt_inf = 0;
+for(i=3;i<document.form1.elements.length;i++)
+	if (document.form1.elements[i].checked)
+	{	sw=1;
+		if (document.form1.elements[i].name[11] == '0')	cnt_notinf += 1;
+		else	cnt_inf += 1;
+	}
+if (sw==0)
+{	alert ("Debe seleccionar uno o mas expedientes");
+	return;
+}
+
+document.form1.submit();
+
+}
+</script>
+<?php
+$tbbordes = "#CEDFC6";
+$tbfondo = "#FFFFCC";
+$imagen="flechadesc.gif";
+?>
+<SCRIPT>
+<?
+	include "libjs.php";
+?>
+</SCRIPT>
+</head>
+<body bgcolor="#FFFFFF" topmargin="0" onLoad="setupDescriptions();window_onload();">
+<p>
+<?php
+$krd=strtoupper($krd);
+$check=1;
+$numeroa=0;$numero=0;$numeros=0;$numerot=0;$numerop=0;$numeroh=0;
+$fechaf=date("dmy") . date("hms");
+$fechah=date("dmy") . date("hms");
+$encabezado="".session_name()."=".session_id()."&krd=$krd&depeBuscada=$depeBuscada&filtroSelect=$filtroSelect&tpAnulacion=$tpAnulacion&carpeta=$carpeta";
+
+?>
+<table border=0 width=100% class="t_bordeGris">
+<tr>
+	<td>
+		<!-- Inicia tabla de cabezote -->
+		<table BORDER=0  cellpad=2 cellspacing='0' WIDTH=98% class='t_bordeGris' valign='top' align='center' >
+		<TR>
+			<td width='33%' >
+      			<table width='100%' border='0' cellspacing='1' cellpadding='0'>
+      			<tr>
+      				<td height="20" bgcolor="377584"><div align="left" class="titulo1">LISTADO DE: </div></td>
+      			</tr>
+      			<tr class="info">
+      				<td height="20">Expedientes por cerrar en el Archivo de Gesti&oacute;n</td>
+      			</tr>
+      			</table>
+      		</td>
+			<td width='33%' >
+      			<table width='100%' border='0' cellspacing='1' cellpadding='0'>
+      			<tr>
+      				<td height="20" bgcolor="377584"><div align="left" class="titulo1">USUARIO </div></td>
+      			</tr>
+      			<tr class="info">
+      				<td height="20"><?=$_SESSION['usua_nomb'] ?></td>
+      			</tr>
+      			</table>
+      		</td>
+      		<td width='34%' >
+      			<table width='100%' border='0' cellspacing='1' cellpadding='0'>
+      			<tr>
+      				<td height="20" bgcolor="377584"><div align="left" class="titulo1">DEPENDENCIA </div></td>
+      			</tr>
+      			<tr class="info">
+      				<td height="20"><?=$_SESSION['depe_nomb'] ?></td>
+      			</tr>
+      			</table>
+      		</td>
+      	</TR>
+		</table>
+			<TABLE width="98%" align="center" cellspacing="0" cellpadding="0">
+		<tr class="tablas">
+			<TD>
+			<FORM name=form_busq_rad action='?krd=<?=$krd?>&<?=session_name()."=".trim(session_id()).$encabezado?>' method=post>
+				Buscar Expedientes(s) (Separados por coma)<input name="busq_expediente" type="text" size="70" class="tex_area" value="<?=$busq_expediente?>">
+				<input type=submit value='Buscar ' name=Buscar valign='middle' class='botones' onChange="form_busq_rad.submit()";>
+			</FORM>
+			</td>
+		</tr>
+ 		</table>
+ 		
+		<form name='form1' action='tx/formEnvio.php' method='post'>
+		<input name="cambioInf" value="I" type="hidden">
+		<br>
+		<!-- Finaliza tabla de cabezote --> <!-- Inicia tabla de datos -->
+		<?
+		$imagen="img_flecha_sort.gif";
+		$row = array();
+		echo "<input type=hidden name=contra value=$drde> ";
+		echo "<input type=hidden name=sesion value=".md5($krd)."> ";
+		echo "<input type=hidden name=krd value=$krd>";
+		echo "<input type=hidden name=drde value=$drde>";
+		echo "<input type=hidden name=expe value=$expediente>";
+		?>
+		<table width="98%" align="center" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+			<td colspan="2" height="80">
+				<table width="98%" border="0" cellspacing="0" cellpadding="0" align="center" class="borde_tab">
+				<tr>
+					<td width="50%"  class="titulos2">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" align="left">
+						<tr class="titulos2">
+<span class='etitulos'><b>
+						<select name='enviara' id='enviara' class='select'  language='javascript'>
+						<option value=19>CIERRE EXPEDIENTE ARCHIVO GESTI&Oacute;N</option>
+						</select><br>
+							
+							
+						</tr>
+						</table>
+					</td>
+					<td width="50%" align=right class="titulos2" ><BR>
+
+				
+						</select>
+						<BR>
+						<input type=button value="EJECUTAR CIERRE" name=CERRAR valign="middle" class="botones_largo" onclick="enviar();">
+						<input type=hidden name=codTx>
+						
+					</td>
+				</tr>
+				<tr>
+					<td  colspan="2">
+
+<?
+$iusuario = " and us_usuario='$krd'";
+$sqlFecha = $db->conn->SQLDate("d-m-Y H:i A","a.RADI_FECH_RADI");
+$systemDate = $db->conn->sysTimeStamp;
+
+
+if(strlen($orderNo)==0)
+{
+	$orderNo='0';
+	$order = 1;
+}
+else
+	$order = $orderNo +1;
+
+if($orden_cambio==1)
+{	if(trim( strtoupper($orderTipo))!="DESC")
+		$orderTipo="DESC";
+	else
+	   $orderTipo="ASC";
+}
+
+include "$ruta_raiz/include/query/querycierre_exp_especifico.php";
+$linkPagina = "$PHP_SELF?$encabezado&orderTipo=$orderTipo&orderNo=$orderNo";
+$encabezado .= "&adodb_next_page=1&orderTipo=$orderTipo&orderNo=";
+
+if($chk_carpeta) $chk_value=" checked "; else  $chk_value="";
+$pager = new ADODB_Pager($db,$isql,'adodb', true,$orderNo,$orderTipo);
+$pager->toRefLinks = $linkPagina;
+$pager->toRefVars = $encabezado;
+$pager->checkAll = false;
+$pager->checkTitulo = true;
+//$pager->Render($rows_per_page=20,$linkPagina,$checkbox=checkValue);
+$pager->Render(20,$linkPagina);
+
+?>
+					</td>
+				</tr>
+		</table>
+		</form>
+	</td>
+</tr>
+</table>
+</body>

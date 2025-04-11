@@ -1,0 +1,396 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./favicon.png">
+
+    <title>Dashboard Template for Bootstrap</title>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="./assets/js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./assets/css/dashboard.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Orfeo</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="canales.html">Canales</a></li>
+            <li><a href="radicacion.html">Radicación</a></li>
+            <li><a href="formularioPersonaPublico.html">Personas</a></li>
+            <li><a href="formularioPersonaPrivado.html">Personas-Publico</a></li>
+          </ul>
+         </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+	<div class="panel panel-primary" >        
+		<div class="panel-heading"><h3>Formulario de Captura</h3></div>
+		      <div class="panel-body">
+			<form  role="form">			
+			<div class="row form-group">
+				 <div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="tipoPersona">Tipo de Persona</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+				<select class="form-control dropdown seleccion" id="tipoPersona">
+				<option value="">Seleccione una opción</option>          			
+				<option value="2">Persona Natural</option>
+          			<option value="1">Persona Júridica</option>
+				<option value="3">ESP</option>
+				<option value="4">Anónimo</option>
+        			</select>          
+				</div>
+			</div>
+
+			<div class="row col-sm-12  col-md-12 dinamic" id="anonimo" style="display:none">
+			<div class="row form-group">
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtdirEmpresa">Dirección</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtdirEmpresa" type="text" >
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtemmail">Correo Eléctronico</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtemmail" type="text" >
+ 				</div>
+			</div>	
+			</div>		
+
+			<div class="row col-sm-12  col-md-12 dinamic" id="juridica" style="display:none">
+			<div class="row form-group">
+				 <div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtnit">Nit*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<input class="form-control" id="txtnit" type="text">
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtnoEmpresa">Nombre Empresa*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtnoEmpresa" type="text">
+ 				</div>
+			</div>
+			<div class="row form-group">
+				 <div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtnit">Representante Legal*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<input class="form-control" id="txtrep" type="text">
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtdirEmpresa">Dirección*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtdirEmpresa" type="text">
+ 				</div>
+			</div>
+			<div class="row form-group">
+				<div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtnfijo">Teléfono Contacto*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<input class="form-control" id="txtcontacto" type="text">
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtemmail">Correo Eléctronico</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtemmail" type="text">
+ 				</div>
+			</div>	
+			</div>
+			
+			<div class="row col-sm-12  col-md-12 dinamic" id="esp" style="display:none">
+			<div class="row form-group">
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtnoEmpresa">Nombre ESP</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtnoEmpresa" type="text">
+ 				</div>				 
+				<div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtnit">Nit*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<input class="form-control" id="txtnit" type="text" disabled>
+ 				</div>
+				
+			</div>
+			<div class="row form-group">
+				 <div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtnit">Representante Legal</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<input class="form-control" id="txtrep" type="text" disabled>
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtdirEmpresa">Dirección</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtdirEmpresa" type="text" disabled>
+ 				</div>
+			</div>
+			<div class="row form-group">
+				<div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtnfijo">Teléfono Contacto</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<input class="form-control" id="txtcontacto" type="text" disabled>
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtemmail">Correo Eléctronico</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtemmail" type="text" disabled>
+ 				</div>
+			</div>	
+			</div>	
+
+			<div class="row col-sm-12  col-md-12 dinamic" id="persona" style="display:none">
+			<div class="row form-group">
+				 <div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="tipoDocumento">Tipo de documento *</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<select class="form-control dropdown seleccion" id="tipoDocumento">
+				<option value="">Seleccione una opción</option>          			
+				<option value="2">Cédula de Ciudadanía</option>
+          			<option value="1">Cédula de Extranjería</option>
+				<option value="3">Pasaporte</option>
+				<option value="4">NUIP</option>
+				<option value="5">Tarjeta de Identidad</option>
+        			</select>      
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtdocumento"><span>Documento de Identidad</span></label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtdocumento" type="text">
+ 				</div>
+			</div>			
+			<div class="row form-group">
+				 <div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtapellido1">Primer Apellido*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<input class="form-control" id="txtapellido1" type="text">
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtapellido2">Segundo Apellido</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtapellido2" type="text">
+ 				</div>
+			</div>
+			<div class="row form-group">
+				<div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtnombre1">Primer Nombre*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<input class="form-control" id="txtnombre1" type="text">
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtnombre2">Segundo Nombre</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtnombre2" type="text">
+ 				</div>
+			</div>	
+			<div class="row form-group">
+				<div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtdir">Dirección*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<input class="form-control" id="txtdir" type="text">
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtemail">Correo Eléctronico</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtemail" type="text">
+ 				</div>
+			</div>	
+			<div class="row form-group">
+				<div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtnfijo">Teléfono Fijo</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<input class="form-control" id="txtnfijo" type="text">
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtcelular">Móvil Célular</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<input class="form-control" id="txtcelular" type="text">
+ 				</div>
+			</div>	
+			<div class="row form-group">
+				<div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtnfijo">Sexo*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<select class="form-control dropdown seleccion" id="tipoDocumento">
+				<option value="2">M</option>
+          			<option value="1">F</option>
+				</select>      
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtcelular">Etnia*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<select class="form-control dropdown seleccion" id="tipoDocumento">
+				<option value="0">Ninguna</option>	
+				<option value="3">Indigenna</option>          			
+				<option value="2">Raizal</option>
+          			<option value="1">Afrodecendiente</option>
+				</select>      
+ 				</div>
+			</div>	
+		</div>
+
+
+			<div class="row col-sm-12  col-md-12" id="persona">
+			<div class="row form-group">
+				 <div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="tipoDocumento">País*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<select class="form-control dropdown seleccion" id="pais">
+				<option value="">Seleccione una opción</option>          			
+				<option value="170">Colombia</option>
+          			</select>      
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtdocumento"><span>Departamento*</span></label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<select class="form-control dropdown seleccion" id="pais">
+				<option value="">Seleccione una opción</option>          			
+				<option value="11">D.C.</option>
+				<option value="25">Cundinmarca</option>
+				<option value="5">Antioquia</option>
+				<option value="10">Valle del Cauca</option>
+          			</select>  
+ 				</div>
+			</div>			
+			<div class="row form-group">
+				 <div class="col-sm-2  col-md-2 ">
+				   <label class="etiqueta  control-label label-success form-control" for="txtapellido1">Municipio*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">
+			    		<select class="form-control dropdown seleccion" id="pais">
+				<option value="">Seleccione una opción</option>          			
+				<option value="11">Bogotá</option>
+				<option value="25">Cali</option>
+				<option value="11">Medellín</option>
+          			</select>  
+ 				</div>
+				<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtapellido2">Tipo de Petición*</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<select class="form-control dropdown seleccion" id="pais">
+				<option value="">Seleccione una opción</option>          			
+				<option value="11">Petición</option>
+				<option value="25">Queja</option>
+				<option value="11">Reclamo</option>
+				<option value="11">Solicitud</option>
+				<option value="11">Denuncia</option>
+          			</select>  
+ 				</div>
+			</div>
+			<div class="row form-group col-sm-2 col-md-2">			
+
+			</div>
+
+			<div class="row form-group col-sm-4  col-md-4 text-center">
+			<div class="col-sm-2  col-md-2 ">
+			    		<label class="etiqueta  control-label label-success form-control" for="txtnombre2">Notificación</label>
+				</div>  			  
+				<div class="col-sm-4  col-md-4 ">	
+  			  		<label class="checkbox-inline"><input type="checkbox" value="">Email</label>
+					<label class="checkbox-inline"><input type="checkbox" value="">Dirección</label>
+				</div>
+			</div>	
+		<div class="row form-group">			
+
+
+		</div>
+
+		<div class="row col-sm-12  col-md-12 text-center" id="continuar" style="display:nones">
+			<button type="submit" class="btn btn-primary">Continuar</button>
+		</div>	
+		  </form>
+		     </div>
+		</div>
+	</div>	
+    </div>
+continua
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+<script type="text/javascript">
+		$( "#tipoPersona" ).change(function() {
+  			$(".dinamic").hide();
+			
+		   var valor = $(this).val();
+			console.log(valor);		
+			if(valor==1){
+				$("#juridica").show();
+			}else if(valor==2){
+				$("#persona").show();
+			}else if(valor==3){
+				$("#esp").show();
+			}else if(valor==4){
+				$("#anonimo").show();
+			}
+		});	
+	</script>
+    
+  </body>
+</html>
+

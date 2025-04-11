@@ -1,0 +1,327 @@
+<?php
+session_start();
+if (!$_SESSION['dependencia']) header ("Location: ../cerrar_session.php");
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+$username = 'notificador@iyu.com.co';
+$password = 'n0t1f1c4d0r$,.2016';
+$hostname = '{imap.gmail.com:993/ssl/novalidate-cert}INBOX';
+
+//$mbox = imap_open($hostname, $username, $password, OP_READONLY, 1) or die('Cannot connect to Mail: ' . imap_last_error());
+$mbox = imap_open($hostname, $username, $password, OP_READONLY, 1) or die($this->ms('Cannot connect to Mail: ' . imap_last_error()));
+//$emails = imap_search($mbox,'ALL');
+
+
+$ruta_raiz = ".";
+$debug=false;
+//$dsn = "{" . $server_mail_incoming . ":" . $port_mail_incoming . "/imap/ssl/novalidate-cert}";
+//$mbox = imap_open($dsn . $carpetaLecturaCertimail, $correo_certimail, $passwd_certimal);
+if ($debug) {
+    debug($fyh, "<br/><b>imap_open<b/> " . date('Y-m-d h:i:s') . "<br>");
+    debug($fyh, "<br/>N&uacute;mero Total de mensajes carpeta $carpetaLecturaCertimail: " . imap_num_msg($mbox) . "<br/>");
+    debug($fyh, "imap_listmailbox " . date('Y-m-d h:i:s') . "<br>");
+    debug($fyh, "<h1>Leyendo cada correo</h1><br/>");
+}
+
+$cntEmails = imap_num_msg($mbox);
+
+for ($index = 1; $index <= $cntEmails; $index++) {
+    $uid = imap_uid($mbox, $index);
+    
+    $header = imap_headerinfo($mbox, imap_msgno($mbox, $uid));
+    
+    $fromInfo = $header->from[0];
+    $replyInfo = $header->reply_to[0];
+
+    $details = array(
+        "fromAddr" => (isset($fromInfo->mailbox) && isset($fromInfo->host)) ? $fromInfo->mailbox . "@" . $fromInfo->host : "",
+        "fromName" => (isset($fromInfo->personal)) ? $fromInfo->personal : "",
+        "replyAddr" => (isset($replyInfo->mailbox) && isset($replyInfo->host)) ? $replyInfo->mailbox . "@" . $replyInfo->host : "",
+        "replyName" => (isset($replyTo->personal)) ? $replyto->personal : "",
+        "subject" => (isset($header->subject)) ? $header->subject : "",
+        "udate" => (isset($header->udate)) ? $header->udate : date_timestamp_get(date('Y-m-d H:i:s'.substr((string)microtime(), 1, 8))) );
+
+        $mailStruct = imap_fetchstructure($mbox, $uid, FT_UID);
+        
+        $attachments = getAttachments($mbox, $uid, $mailStruct, "");
+        
+        //Recepcion del acuse de recibo del correo electronico certificado certimail. Puede venir la informacion de la apertura.
+        //receipt@rpost.net
+
+        $mailStruct = imap_fetchstructure($mbox, $uid, FT_UID);
+        var_dump($mailStruct);
+        $attachments = getAttachments($mbox, $uid, $mailStruct, "");
+        var_dump($attachments);
+        //die();
+
+    if ($details["fromAddr"] == "rigoberto.caicedo@iyu.com.co") {
+        $mailStruct = imap_fetchstructure($mbox, $uid, FT_UID);
+        $attachments = getAttachments($mbox, $uid, $mailStruct, "");
+        var_dump($attachments);
+        $rutaHTM = NULL;
+        foreach ($attachments as $attachment) {
+            if ($debug) {
+                debug($fyh, 'Correo con uid = ' . $uid . ', part=' . $attachment["partNum"] . ', enc=' . $attachment["enc"] . ' y nombre de anexo ' . parsearString($attachment["name"]) . "<br/>");
+            }
+            //DeliveryReceipt.xml
+            if ($attachment["name"] == 'pruebaD.pdf') {
+                echo "<h1>Se imprimirá</h1>";
+                $path="C:/xampp/htdocs";
+                $fileD = downloadAttachment($mbox, $uid, $attachment["partNum"], $attachment["enc"], $path);
+                $curl = curl_init();
+
+                curl_setopt_array($curl, Array(
+                    CURLOPT_URL            => 'http://smarkets.s3.amazonaws.com/oddsfeed.xml',
+                    CURLOPT_RETURNTRANSFER => TRUE,
+                    CURLOPT_ENCODING       => 'UTF-8'
+                ));
+
+                $data = curl_exec($fileD);
+                curl_close($curl);
+
+                $xml = simplexml_load_string($data);
+                
+                //$xml = simplexml_load_string($fileD);
+                var_dump($fileD);
+                $radCopia = $xml->MessageClientCode;
+                $radCopia = explode("_", $radCopia);
+                $rutaHTM = date('Y', $details["udate"] )."/acusecorreoelectronico/" . uniqid($radCopia[0] . "_" . $radCopia[1] . "_") . ".pdf";
+
+            }
+            if ($attachment["name"] == 'HtmlReceipt.htm') {
+                $fileD = downloadAttachment($mbox, $uid, $attachment["partNum"], $attachment["enc"], $path);
+                $fp = fopen(BODEGAPATH . $rutaHTM, 'w');
+                fwrite($fp, $fileD);
+                fclose($fp);
+                
+            }
+        }
+    }
+
+    //Recepcion del acuse de recibo del correo electronico certificado 4-72. Puede venir la informacion de la apertura.
+    if ($details["fromAddr"] == "rigoberto.caicedo@iyu.com.co") {
+        $mailStruct = imap_fetchstructure($mbox, $uid, FT_UID);
+        $asuntoDecodificado = iconv_mime_decode($details["subject"]);
+        
+        if ( (strpos($asuntoDecodificado, "Prueba de entrega") || strpos($asuntoDecodificado, "OPENED")) == 0) {
+            
+            $CodTx = ((strpos($asuntoDecodificado, "Prueba de entrega")=== false) ? 49 : 43);
+            
+            $attachments = getAttachments($mbox, $uid, $mailStruct, "");
+            $rutaHTM = NULL;
+            foreach ($attachments as $attachment) {
+                if ($debug) {
+                    debug($fyh, 'Correo con uid = ' . $uid . ', part=' . $attachment["partNum"] . ', enc=' . $attachment["enc"] . ' y nombre de anexo ' . parsearString($attachment["name"]) . "<br/>");
+                }
+                $fileD = downloadAttachment($mbox, $uid, $attachment["partNum"], $attachment["enc"], $path);
+
+                $radCopia = substr($asuntoDecodificado, strpos($asuntoDecodificado, "(") + 1, strpos($asuntoDecodificado, ")")-1-strpos($asuntoDecodificado, "("));
+                $radCopia = explode("_", $radCopia);
+                if (is_array($radCopia) && count($radCopia) == 2) {
+                    $rutaHTM = date('Y', $details["udate"] )."/acusecorreoelectronico/" . uniqid($radCopia[0] . "_" . $radCopia[1] . "_") . ".pdf";
+                    $fp = fopen(BODEGAPATH . $rutaHTM, 'w');
+                    fwrite($fp, $fileD);
+                    fclose($fp);
+                    if ($debug) {
+                        debug($fyh, "Radicado: " . $radCopia[0] . " y copia:" . $radCopia[1] . "<br/>");
+                    }
+                    //$objHist = new Historico($conn);
+                    //$ok = $objHist->insertarHistorico(array($radCopia[0]), $rsU->Fields('DEPE_CODI'), $rsU->Fields('USUA_CODI'), $rsU->Fields('DEPE_CODI'), $rsU->Fields('USUA_CODI'), "Destinatario " . $emailE, 43);
+                }
+            }
+        }
+    }
+
+    // Recepcion de Certicamara de la notificacion y posterior reenvio al destinatario.
+    if ($details["fromAddr"] == "rigoberto.caicedo@iyu.com.co") {
+        
+    }
+
+    //Recepcion de Rpost del uso del servicio de correo electronico certificado
+    if ($details["fromAddr"] == "rigoberto.caicedo@iyu.com.co") {
+        $overview = imap_fetch_overview($mbox, $uid, FT_UID);
+        $structure = imap_fetchstructure($mbox, $uid, FT_UID);
+        $message = getBody($uid, $mbox);
+
+        $subject = $overview[0]->subject;
+        $from = $overview[0]->from;
+        $fromEmail = $header->from[0]->mailbox . "@" . $header->from[0]->host;
+        $body = $message;
+
+        $sql = "SELECT USUA_EMAIL FROM USUARIO WHERE USUA_REP_MAILCERT=1 AND USUA_EMAIL IS NOT NULL";
+        $ADODB_COUNTRECS = TRUE;
+        $conn->conn->SetFetchMode(ADODB_FETCH_ASSOC);
+        $rsx = $conn->conn->Execute($sql);
+        if ($rsx->RecordCount() > 0) {
+            while ($arr = $rsx->FetchRow()) {
+                $emailU[] = $arr['USUA_EMAIL'];
+            }
+            require_once ORFEOPATH . "class_control/correoElectronico.php";
+            $objMail = new correoElectronico($ruta_raiz);
+            $objMail->FromName = "Notificaciones";
+            $enviarCorreo = $objMail->enviarCorreo($emailU, $cc, $cco, parsearString($subject), $message);
+            $objMail->SmtpClose();
+        }
+        $ADODB_COUNTRECS = FALSE;
+    }
+
+    //movemos el correo electronico a la carpeta de gestionados.
+    if (imap_mail_move($mbox, $uid, $carpetaGestionCertimail, CP_UID)) {
+        if ($debug) {
+            debug($fyh, "<br/><span style='color:green'>Moviendo correo con index $index, uid $uid a la carpeta $carpetaGestionCertimail</span>");
+        }
+    } else {
+        if ($debug) {
+            debug($fyh, "<br/><span style='color:red'>Error Moviendo correo con index $index, uid $uid a la carpeta $carpetaGestionCertimail</span>");
+        }
+    }
+    
+}
+
+$okE = imap_expunge($mbox);
+if ($debug) {
+    debug($fyh, "<br/>imap_expunge dio $okE");
+}
+
+imap_close($mbox, CL_EXPUNGE);
+if ($debug) {
+    debug($fyh, "<br/>imap_close " . date('Y-m-d h:i:s') . "<br>");
+}
+exit(0);
+
+function getAttachments($imap, $mailNum, $part, $partNum) {
+    $attachments = array();
+
+    if (isset($part->parts)) {
+        echo "Entra arriba";
+        foreach ($part->parts as $key => $subpart) {
+            if ($partNum != "") {
+
+                $newPartNum = $partNum . "." . ($key + 1);
+                //var_dump($newPartNum);
+            } else {
+                $newPartNum = ($key + 1);
+            }
+            $result = getAttachments($imap, $mailNum, $subpart, $newPartNum);
+            if (count($result) != 0) {
+                array_push($attachments, $result);
+            }            
+        }
+    } else if (isset($part->disposition)) {
+        echo "Entra abajo";
+        if (strtoupper($part->disposition) == "ATTACHMENT") {
+            $partStruct = imap_bodystruct($imap, imap_msgno($imap, $mailNum), $partNum);
+            //$partStruct1 = imap_fetchstructure($imap, $mailNum, FT_UID);
+            $attachmentDetails = array(
+                "name" => $part->dparameters[0]->value,
+                "partNum" => $partNum,
+                "enc" => $partStruct->encoding
+            );
+            return $attachmentDetails;
+        }
+    }
+    return $attachments;
+}
+
+function downloadAttachment($imap, $uid, $partNum, $encoding, $path) {
+    $partStruct = imap_bodystruct($imap, imap_msgno($imap, $uid), $partNum);
+
+    $filename = $partStruct->dparameters[0]->value;
+    $message = imap_fetchbody($imap, $uid, $partNum, FT_UID);
+
+    switch ($encoding) {
+        case 0:
+        case 1:
+            $message = imap_8bit($message);
+            break;
+        case 2:
+            $message = imap_binary($message);
+            break;
+        case 3:
+            $message = imap_base64($message);
+            break;
+        case 4:
+            $message = quoted_printable_decode($message);
+            break;
+    }
+    return $message;
+}
+
+function getBody($uid, $imap) {
+    $body = get_part($imap, $uid, "TEXT/HTML");
+    // if HTML body is empty, try getting text body
+    if ($body == "") {
+        $body = get_part($imap, $uid, "TEXT/PLAIN");
+    }
+    return $body;
+}
+
+function get_part($imap, $uid, $mimetype, $structure = false, $partNumber = false) {
+    if (!$structure) {
+        $structure = imap_fetchstructure($imap, $uid, FT_UID);
+    }
+    if ($structure) {
+        if ($mimetype == get_mime_type($structure)) {
+            if (!$partNumber) {
+                $partNumber = 1;
+            }
+            $text = imap_fetchbody($imap, $uid, $partNumber, FT_UID);
+            switch ($structure->encoding) {
+                case 3: return imap_base64($text);
+                case 4: return imap_qprint($text);
+                default: return $text;
+            }
+        }
+
+        // multipart
+        if ($structure->type == 1) {
+            foreach ($structure->parts as $index => $subStruct) {
+                $prefix = "";
+                if ($partNumber) {
+                    $prefix = $partNumber . ".";
+                }
+                $data = get_part($imap, $uid, $mimetype, $subStruct, $prefix . ($index + 1));
+                if ($data) {
+                    return $data;
+                }
+            }
+        }
+    }
+    return false;
+}
+
+function get_mime_type($structure) {
+    $primaryMimetype = array("TEXT", "MULTIPART", "MESSAGE", "APPLICATION", "AUDIO", "IMAGE", "VIDEO", "OTHER");
+
+    if ($structure->subtype) {
+        return $primaryMimetype[(int) $structure->type] . "/" . $structure->subtype;
+    }
+    return "TEXT/PLAIN";
+}
+
+function parsearString($cad) {
+    $ret = "";
+    $strCodec = imap_mime_header_decode($cad);
+    foreach ($strCodec as $key => $arrCodec) {
+        switch (strtolower($arrCodec->charset)) {
+            case 'iso-8859-1': {
+                    $ret .= ($arrCodec->text);
+                }break;
+            case 'default':
+            case 'utf-8': {
+                    $ret .= htmlentities(iconv('UTF-8', 'ISO-8859-1//IGNORE', $arrCodec->text));
+                }break;
+            default: {
+                    $ret .= (iconv($arrCodec->charset, 'UTF-8', $arrCodec->text));
+                }break;
+        }
+    }
+    return $ret;
+}
+
+function debug($filename, $data) {
+    file_put_contents($filename, $data, FILE_APPEND);
+}
+
+?>
